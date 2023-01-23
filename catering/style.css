@@ -13,27 +13,10 @@ body
     z-index: 5 !important;
     animation: 1s alternate pulse;
 }
-.contc
-{
-    margin-left: 10%;
-    padding-top: 5px;
-    font-size: 18px;
-}
-.time
-{
-    margin-left: 40%;
-    padding-top: 5px;
-    font-size: 18px;
-    
-}
- img
-{
-    margin-left: 10px;
-     
-}
+ 
 .navbar-link
 {
-    margin-left: 20%;
+    margin-left: 10%;
     
 }
 .navbar-link li 
@@ -53,9 +36,6 @@ body
 {   color: brown;
     list-style-type: none;
     text-decoration: none;
-}
-.a:hover {
-    color: yellow;
 }
 
 #caption
@@ -106,8 +86,26 @@ h1 {
     letter-spacing: 7px;
     cursor: pointer;
   }
-  
-  
+  #menu
+  {
+     padding: 5%;
+  }
+ .menu-list ul li 
+ {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+   
+    
+    }   
+ .menu-list li a
+ {
+    font-size: 18px;
+    list-style-type:  none;
+    color: gray;
+    text-decoration: underline 1px gray;
+ }   
+ 
 @media only screen and (min-width:320px) and (max-width:480px)
 {
 
